@@ -41,13 +41,14 @@ export class App extends Component {
     return (
       <div className="App">
         <h2>Map of Colombia</h2>
+        <Overlay getProjection={this.getProjection} tweets={this.props.tweets}/>
         <ColombiaMap
           width="600"
           height="600"
           data={{RISARALDA:0, CALDAS:0}}
           setProjection = {this.setProjection.bind(this)}
         ></ColombiaMap>
-        <Overlay getProjection={this.getProjection} tweets={this.props.tweets}/>
+        
 
       
         <input type="text" onKeyPress={this.changeQuery.bind(this)} placeholder="Query"/>
