@@ -10,7 +10,15 @@ import ColombiaMap from "./ColombiaMap.jsx";
 export class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      projection:null,
+    };
 
+  }
+  setProjection(proj){
+    this.setState({
+      projection: proj,
+    });
   }
 
   changeQuery(evt) {
@@ -35,6 +43,7 @@ export class App extends Component {
           width="600"
           height="600"
           data={{RISARALDA:10, CALDAS:12}}
+          setProjection = {this.setProjection.bind(this)}
         ></ColombiaMap>
 
       
