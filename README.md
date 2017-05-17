@@ -1,6 +1,8 @@
-# twitterStreamerMeteor
+# Examen Final Web
 
-A simple boilerplate for a Meteor 1.4 Twitter streamer application with React. Uses the twitter [npm](https://www.npmjs.com/package/twitter) module for connecting to twitter. It requires you to setup your credentials on the server using environment variables:
+Página Web donde se puede visualizar al instante en que una persona realiza un tweet en Colombia, su ubicación en el país, representado por un punto.
+Para poder ver la página debe realizar lo siguientes pasos:
+1. Se necesita que incluya sus credenciales del API de Twitter como variables de entorno:
 
 ```
 export TWITTER_CONSUMER_KEY="yourCredentialsHere"
@@ -8,8 +10,11 @@ export TWITTER_CONSUMER_SECRET="yourCredentialsHere"
 export TWITTER_ACCESS_TOKEN_KEY="yourCredentialsHere"
 export TWITTER_ACCESS_TOKEN_SECRET="yourCredentialsHere"
 
-meteor npm install
-meteor
 ```
+2. Clone o descargue el repositorio en su equipo.
+3. Desde consola, párese sobre la carpeta en la que se encuntra el repositorio. (cd ../../Parcial2Web)
+4. Ejecute el siquiente comando -meteor npm install-
+5. Luego ejecute -meteor- 
+6. Dsifrute de la página. 
 
-This is a very basic implementation that handles a global search shared by all users and doesn't implement any security or restriction. It's intended as a starting point, so add your own requirements.
+
