@@ -13,8 +13,10 @@ export TWITTER_ACCESS_TOKEN_SECRET="yourCredentialsHere"
 ```
 2. Clone o descargue el repositorio en su equipo.
 3. Desde consola, párese sobre la carpeta en la que se encuntra el repositorio. (cd ../../Parcial2Web)
-4. Ejecute el siquiente comando -meteor npm install-
+4. Ejecute el siguiente comando -meteor npm install-
 5. Luego ejecute -meteor- 
-6. Dsifrute de la página. 
+6. Interactúe con la página. 
 
+
+Cada vez que una persona realiza un nuevo tweet, los colores de sus representaciones cambia, de esta manera podrás saber cuándo ocurre un cambio. 
 
